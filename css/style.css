@@ -46,7 +46,7 @@ a{
   height: 32rem;
 }
 
-.brand-image{
+/*.brand-image{
 	width: 4rem !important;
 	height: 4rem !important;
 }
@@ -55,15 +55,14 @@ a{
 	padding-top: 2rem;
 	padding-bottom: 1rem;
 }
-
+*/
 
 li{
 	display: inline;
 }
 
 ul.horizontal-list{
-	padding-left: 2.5rem;
-	padding-top: 0rem; 
+	padding-top: 2.5rem; 
 	font-size: 25px;
 }
 
@@ -79,7 +78,6 @@ ul.horizontal-list li{
 
 footer {
 	background-color: #eae02a;
-	
 	position: relative;
     bottom: 0;
     min-height: 10%;
@@ -118,7 +116,7 @@ header{
 }
 
 .container-footer{
-	padding-top: 3rem;
+	padding-top: 2rem;
 	padding-bottom: 2rem;
 	margin-top: 0rem;
 }
@@ -149,7 +147,7 @@ header{
 }
 
 #delay-appearing{
-	visibility:hidden;
+	opacity: 0;
 	-webkit-transition: opacity 2s ease-in;
     -moz-transition: opacity 2s ease-in;
     -o-transition: opacity 2s ease-in;
@@ -158,28 +156,9 @@ header{
 }
 
 
-/*@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-.fade-in {
-    opacity:0;
-    -webkit-animation:fadeIn ease-in 1;
-    -moz-animation:fadeIn ease-in 1;
-    animation:fadeIn ease-in 1;
-
-    -webkit-animation-fill-mode:forwards; 
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-}*/
-
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
 .fade-in {
     opacity:0;
     -webkit-animation:fadeIn ease-in 1;
@@ -193,4 +172,9 @@ header{
     -webkit-animation-duration:1s;
     -moz-animation-duration:1s;
     animation-duration:1s;
+}
+
+.email-link-outer{
+	display: block;
+	font-size: 1.5rem;
 }

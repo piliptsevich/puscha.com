@@ -12,6 +12,7 @@ h1{
 
 body {
   color: black;
+  font-family: Verdana;
 }
 
 a{
@@ -177,4 +178,13 @@ header{
 .email-link-outer{
 	display: block;
 	font-size: 1.5rem;
+}
+
+.page-header{
+	font-weight: bold;
+}
+
+.page-header small{
+	font-family: Garamond;
+	font-style: italic;
 }

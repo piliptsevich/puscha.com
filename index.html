@@ -22,11 +22,7 @@
     <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="css/icomoon.css">
     <!-- Google map script -->
-    <script src="js/google.map.js"></script>
-    <!-- delay-appearing -->
-    <script src="js/delay-appearing.js"></script>
-    <!-- Google map -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHX2rSkIPrBaa_oCt9hm6oGmeAqCvsM6k&callback=initMap"></script>
+
   </head>
   
     <body>
@@ -54,7 +50,7 @@
   
   <!-- Content starts here -->
 <div class="content">
-    <!-- Carousel -->
+<!-- Carousel -->
        
 <div id="carousel-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -94,15 +90,6 @@
   </a>
 </div>
 
-  <script type="text/javascript">
-$(function() {
-    $('#delay-appearing').fadeTo(400, 1);
-    $('#fadeIn').click(function(){
-         $('#delay-appearing').fadeIn('slow', function(){alert('Отображено');});
-    });
-});
-</script>
-
         <div id="delay-appearing" class="container tips">
           <div class="row text-center">
             <div class="col-sm-12 col-md-6 col-lg-4">
@@ -127,7 +114,7 @@ $(function() {
             </div><!--/span-->
             <div class="col-sm-12 col-md-6 col-lg-4">
               <h2>Species</h2>
-              <p> 46 different species of animals living there right now.</p>
+              <p> 58 different species of animals living there right now.</p>
             </div><!--/span-->
           </div><!--/row-->
         </div>
@@ -157,5 +144,11 @@ $(function() {
       </div>
     </footer>
 
+
+    <script src="js/google.map.js"></script>
+    <!-- delay-appearing -->
+    <script src="js/delay-appearing.js"></script>
+    <!-- Google map -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHX2rSkIPrBaa_oCt9hm6oGmeAqCvsM6k&callback=initMap"></script>
   </body>
 </html>

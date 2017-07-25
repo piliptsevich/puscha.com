@@ -10,9 +10,11 @@ h1{
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+html, body {
   color: black;
   font-family: Verdana;
+  font-size: 16px;
+  cursor: auto;
 }
 
 a{
@@ -95,7 +97,7 @@ header{
 }
 .footer-content{
 	color: black;
-	font-size: 1.5rem;
+	/*font-size: 1.5rem;*/
 }
 
 #go_top{
@@ -138,7 +140,7 @@ header{
 }
 
 .social-icons {
-  font-size: 3rem !important;
+  font-size: 2rem !important;
   margin: 0 1rem;
   padding: 1rem 0rem;
 }
@@ -177,7 +179,7 @@ header{
 
 .email-link-outer{
 	display: block;
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 
 .page-header{
@@ -187,4 +189,29 @@ header{
 .page-header small{
 	font-family: Garamond;
 	font-style: italic;
+}
+
+.about-animals{
+	display: block;
+}
+
+.animal{
+	width: 400px;
+	height: 400px;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    margin-bottom: 20px;
+}
+
+.featurette-image{
+	margin-top: 20px;
 }

@@ -70,8 +70,11 @@ ul.horizontal-list{
 }
 
 ul.horizontal-list li{
-    padding: 0rem 3rem;
+	display: block;
+	padding-bottom: 1rem;
+    text-align: center !important;
 }
+
 
 /*.navbar{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiadXtVbfjhvScffgNcPwsxZ-hoMPl32Iu70xidg-_vEr8nMgb");

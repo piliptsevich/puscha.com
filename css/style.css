@@ -199,8 +199,7 @@ header{
 }
 
 .animal{
-	width: 400px;
-	height: 400px;
+	width: 100%;
 }
 
 .featurette-divider {

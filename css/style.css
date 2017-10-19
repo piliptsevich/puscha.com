@@ -70,8 +70,8 @@ ul.horizontal-list{
 }
 
 ul.horizontal-list li{
-	display: block;
-	padding-bottom: 1rem;
+    display: inline-block;
+    padding: 0.5rem;
     text-align: center !important;
 }
 
